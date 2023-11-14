@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #FF6600;
+  color: #0051ff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -518,7 +518,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #e4e8ec;
 }
 
 .blockquote-footer::before {
@@ -2371,8 +2371,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #0051ff;
+  border-color: #0051ff;
 }
 
 .btn-primary:hover {
@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FF6600 !important;
+  background-color: #0051ff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9817,7 +9817,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background: #0051ff;
 }
 
 @media (max-width: 991.98px) {
@@ -9910,7 +9910,7 @@ h6,
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: #FF6600;
+  background: #0051ff;
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9920,7 +9920,7 @@ h6,
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid #FF6600;
+  border: 2px solid #0051ff;
   border-radius: 20px;
 }
 
