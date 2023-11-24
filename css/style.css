@@ -9845,6 +9845,14 @@ h6,
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/page-header.jpg), no-repeat center center;
   background-size: cover;
 }
+.page-header-contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contactus-banner.jpg), no-repeat center center;
+  background-size: cover;
+}
+.page-header-about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-banner.jpg), no-repeat center center;
+  background-size: cover;
+}
 
 .cat-item img {
   transition: .5s;
