@@ -69,25 +69,58 @@
     <!-- Navbar Start -->
     <div class="container-fluid">
         <div class="row border-top px-xl-5">
-
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
-                            <a href="index.html" class="nav-item nav-link">Home</a>
-                            <a href="about.html" class="nav-item nav-link active">About</a>
-                            <a href="course.html" class="nav-item nav-link">Courses</a>
-                            <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <!-- Education dropdown -->
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="dropdown-item" data-toggle="dropdown">Education<i
+                                                class="fa fa-angle-down float-right mt-1"></i></a>
+                                        <div class="dropdown-item position-relative bg-secondary rounded-0 w-100 m-0">
+                                            <a href="study.html" class="dropdown-item">Study</a>
+                                            <a href="training.html" class="dropdown-item">Training</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Visa dropdown -->
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="dropdown-item" data-toggle="dropdown">Visa<i
+                                                class="fa fa-angle-down float-right mt-1"></i></a>
+                                        <div
+                                            class="dropdown-item position-relative bg-secondary border-0 rounded-0 w-100 m-0">
+                                            <a href="" class="dropdown-item">Visit & Tourist Visa</a>
+                                            <a href="" class="dropdown-item">Work Visa</a>
+                                            <a href="" class="dropdown-item">Business Visa</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Tours & Travells -->
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="dropdown-item" data-toggle="dropdown">Tour & Travells<i
+                                                class="fa fa-angle-down float-right mt-1"></i></a>
+                                        <div
+                                            class="dropdown-item position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
+                                            <a href="" class="dropdown-item">Thailand</a>
+                                            <a href="" class="dropdown-item">Singapoor</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="blog.html" class="dropdown-item">Blog List</a>
+                                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
                                     <a href="single.html" class="dropdown-item">Blog Detail</a>
                                 </div>
                             </div>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
-
                     </div>
                 </nav>
             </div>
