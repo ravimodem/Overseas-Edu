@@ -3231,7 +3231,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-menu.show {
-  display: block;
+  display: block ;
 }
 
 .dropdown-header {
@@ -9847,6 +9847,14 @@ h6,
 }
 .page-header-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contactus-banner.jpg), no-repeat center center;
+  background-size: cover;
+}
+.page-header-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/study-banner-guidence.jpg), no-repeat center center;
+  background-size: cover;
+}
+.page-header-training {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/training-banner.jpg), no-repeat center center;
   background-size: cover;
 }
 .page-header-about {
