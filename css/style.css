@@ -9867,6 +9867,19 @@ h6,
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-banner.jpg), no-repeat center center;
   background-size: cover;
 }
+.page-header-work-visa {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/work-visa.jpg), no-repeat center center;
+  background-size: cover;
+}
+.page-header-business-visa {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/business-visa.jpg), no-repeat center center;
+  background-size: cover;
+}
+.page-header-toursest-visa {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/toursest-visa.jpg), no-repeat center center;
+  background-size: cover;
+}
+
 
 .cat-item img {
   transition: .5s;
