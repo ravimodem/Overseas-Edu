@@ -9879,6 +9879,10 @@ h6,
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/toursest-visa.jpg), no-repeat center center;
   background-size: cover;
 }
+.page-header-thailand {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/thailand.jpg), no-repeat center center;
+  background-size: cover;
+}
 
 
 .cat-item img {
