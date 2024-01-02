@@ -9859,6 +9859,18 @@ h6,
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/study-banner-guidence.jpg), no-repeat center center;
   background-size: cover;
 }
+.page-header-singapore-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/singapore/singapore-banner.jpg), no-repeat center center;
+  background-size: cover;
+}
+.page-header-cyprus-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cyprus/cyprus-banner.jpg), no-repeat center center;
+  background-size: cover;
+}
+.page-header-france-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cyprus/cyprus-banner.jpg), no-repeat center center;
+  background-size: cover;
+}
 .page-header-training {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/training-banner.jpg), no-repeat center center;
   background-size: cover;
