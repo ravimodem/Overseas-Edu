@@ -25,8 +25,8 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy8B+U0L2CA+iSgFAF/hzP0mpTKtJ5e2x" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy8B+U0L2CA+iSgFAF/hzP0mpTKtJ5e2x" crossorigin="anonymous"> -->
 
     <!-- jQuery and Popper.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -37,9 +37,9 @@
         crossorigin="anonymous"></script>
 
     <!-- Bootstrap JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy8B+U0L2CA+iSgFAF/hzP0mpTKtJ5e2x"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css"
@@ -51,14 +51,15 @@
         crossorigin="anonymous"></script>
 
     <!-- Popper.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
         integrity="sha384-3IqzI61JSzoUY2VNp+et5Gf2b3uB8n1J7q8CAH4MW/s3iZ8x3C5kYYOd83AuVE8C"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
 
     <!-- Bootstrap JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -107,15 +108,19 @@
     <div class="container-fluid">
         <div class="row border-top px-xl-5">
             <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                <nav class="navbar navbar-expand-lg bg-light navbar-light">
+                    <a href="index.html" class="text-decoration-none d-block d-lg-none">
+                        <img src="img/resources/logo - Copy.png" style="width: 100px;" alt="logo">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="about.html" class="nav-item nav-link">About</a>
                             <div class="nav-item dropdown">
-                                <!-- <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a> -->
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
-
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <!-- Education dropdown -->
                                     <div class="nav-item dropdown">
@@ -133,7 +138,6 @@
                                                 class="fa fa-angle-down float-right mt-1"></i></a>
                                         <div
                                             class="dropdown-item position-relative bg-secondary border-0 rounded-0 w-100 m-0">
-                                            
                                             <a href="work-visa.html" class="dropdown-item">Work Visa</a>
                                             <a href="business-visa.html" class="dropdown-item">Business Visa</a>
                                             <a href="visit-visa.html" class="dropdown-item">Visit & Tourist Visa</a>
@@ -152,8 +156,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
                             <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -170,6 +172,10 @@
     </div>
     <!-- Navbar End -->
 
+    <!--Sticky Header Start-->
+
+
+    <!--Sticky Header End-->
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 mb-5">
@@ -417,18 +423,18 @@
                             </div>
                             <h5>Stock-Market</h5>
                             <a class="h5" href="">Stock-Market</a> -->
-                            <!-- <div class="border-top mt-4 pt-4">
+                    <!-- <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0"></h5>
                                 </div>
                             </div> -->
-                        </div>
-                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <!-- <div class="rounded overflow-hidden mb-2">
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <!-- <div class="rounded overflow-hidden mb-2">
                         <img class="img-fluid" src="img/tourst.jpg" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
@@ -437,18 +443,18 @@
                             </div>
                             <h5>Tourism Packegs</h5>
                              <a class="h5" href="">Tourism Packegs</a> -->
-                            <!-- <div class="border-top mt-4 pt-4">
+            <!-- <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0"></h5>
                                 </div>
                             </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
     <!-- Courses End -->
 
@@ -462,14 +468,19 @@
                         <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Need Any Queries</h5>
                         <h1 class="text-white">Contact to Our Support Team</h1>
                     </div>
-                    <p class="text-white">When you need advanced technical help for issues that can’t be resolved with our knowledge base, you can always count on our friendly support agents. They provide assistance 24/7 via chat and tickets; phone support is available as well.
+                    <p class="text-white">When you need advanced technical help for issues that can’t be resolved with
+                        our knowledge base, you can always count on our friendly support agents. They provide assistance
+                        24/7 via chat and tickets; phone support is available as well.
 
                     </p>
                     <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Clear, concise description of the company’s mission.
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Clear, concise description of the
+                            company’s mission.
                         </li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Easy-to-navigate contact form.</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Selection of appropriate categories for inquiries.
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Easy-to-navigate contact form.
+                        </li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Selection of appropriate
+                            categories for inquiries.
                         </li>
                     </ul>
                 </div>
@@ -700,10 +711,10 @@
                         <p><i class="fa fa-envelope mr-2"></i>hykinoverseas@gmail.com</p>
                         <div class="d-flex justify-content-start mt-4">
                             <!-- <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
-                            <a class="btn btn-outline-light  btn-square mr-2" href="facebook.com/profile.php?id=61550644413617"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-square mr-2" href="https://www.youtube.com/@HykinOverseas"><i
-                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light  btn-square mr-2"
+                                href="facebook.com/profile.php?id=61550644413617"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2"
+                                href="https://www.youtube.com/@HykinOverseas"><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-outline-light btn-square" href="instagram.com/invites/contact/?i=g6jdj37mrv1&utm_content=scmrt5w
                             "><i class="fab fa-instagram"></i></a>
                         </div>
@@ -786,12 +797,6 @@
 
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('.dropdown-toggle').dropdown();
-        });
-    </script>
 
 </body>
 
