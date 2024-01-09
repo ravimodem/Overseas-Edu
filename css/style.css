@@ -3269,6 +3269,24 @@ fieldset:disabled a.btn {
   border-color: #FFFFFF;
 }
 
+.btn-facebook:hover {
+  color: #FFFFFF;
+  background-color: #316FF6;
+  border-color: #FFFFFF;
+}
+
+.btn-youtube:hover {
+  color: #FFFFFF;
+  background-color: #CD201F;
+  border-color: #FFFFFF;
+}
+
+.btn-instagram:hover {
+  color: #FFFFFF;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-color: #FFFFFF;
+}
+
 .btn-outline-light:focus,
 .btn-outline-light.focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
