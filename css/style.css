@@ -3259,32 +3259,35 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #FFFFFF;
+  color: #372b28;
   border-color: #FFFFFF;
 }
 
 .btn-outline-light:hover {
-  color: #212529;
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
-.btn-facebook:hover {
+.btn-facebook {
   color: #FFFFFF;
   background-color: #316FF6;
-  border-color: #FFFFFF;
+  border-color: #316FF6;
 }
 
-.btn-youtube:hover {
+.btn-youtube {
   color: #FFFFFF;
   background-color: #CD201F;
-  border-color: #FFFFFF;
+  border-color: #CD201F;
 }
 
-.btn-instagram:hover {
+.btn-whatsapp {
+  color: #FFFFFF;
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.btn-instagram {
   color: #FFFFFF;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  border-color: #FFFFFF;
 }
 
 .btn-outline-light:focus,
@@ -7068,7 +7071,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #bfa890 !important;
+  background-color: #372b28 !important;
 }
 
 a.bg-dark:hover,
@@ -10714,7 +10717,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #372b28 !important;
+  color: black !important;
 }
 
 a.text-primary:hover,
