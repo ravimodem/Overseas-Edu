@@ -3259,7 +3259,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #372b28;
+  color: #FFFFFF;
   border-color: #FFFFFF;
 }
 
@@ -11078,6 +11078,26 @@ h6,
   background-size: cover;
 }
 
+.page-header-usa-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/usa/usa.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-header-uk-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/usa/uk.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-header-canada-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/canada/canada.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.page-header-australia-study {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/australia/australia.jpg), no-repeat center center;
+  background-size: cover;
+}
+
 .page-header-singapore-study {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/singapore/singapore-banner.jpg), no-repeat center center;
   background-size: cover;
@@ -11089,7 +11109,7 @@ h6,
 }
 
 .page-header-france-study {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cyprus/cyprus-banner.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/france/france-banner.jpg), no-repeat center center;
   background-size: cover;
 }
 
