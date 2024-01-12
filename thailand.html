@@ -23,6 +23,19 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -161,7 +174,7 @@
                     <div class="mb-5">
                         <!-- <h6 class="text-primary mb-3">Jan 01, 2050</h6> -->
                         <h1 class="mb-5">Thailand Tourism</h1>
-                        <img class="img-fluid rounded w-100 mb-4" src="img/carousel-1.jpg" alt="Image">
+                        <img class="img-fluid rounded w-100 mb-4" src="img/thailand-place.jpg" alt="Image">
                         <p>Thailand,officially the Kingdom of Thailand and historically known as Siam, is a country in
                             Southeast Asia on the Indochinese Peninsula. With a population of almost 70 million,it spans
                             513,120 square kilometres (198,120 sq mi). Thailand is bordered to the northwest by Myanmar,
@@ -170,7 +183,7 @@
                             Vietnam to the southeast, and Indonesia and India to the southwest. Bangkok is the nation's
                             capital and largest city.</p>
                         <h2 class="mb-4">About Thailand</h2>
-                        <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="img/blog-1.jpg" alt="Image">
+                        <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="img/thailand-p.jpg" alt="Image">
                         <p>Bordered with Andaman sea and gulf of Thailand, Thailand is a dream destination for every
                             beach lover. Thailand tourism has everything a tourist could ask for, from an international
                             holiday destination including, Gren-blue clean beaches, coral islands, mountains, shopping
@@ -397,12 +410,7 @@
                                         <img class="img-fluid" src="img/destnation/bangkok.jpg" alt="">
                                         <div class="team-social">
                                             <a class="btn btn-outline-light mx-1" href="#">More Details</a>
-                                            <!-- <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-linkedin-in"></i></a> -->
+
                                         </div>
                                     </div>
                                     <div class="bg-secondary p-3">
@@ -416,13 +424,36 @@
                                     <div class="team-img position-relative">
                                         <img class="img-fluid" src="img/destnation/phuket.jpg" alt="">
                                         <div class="team-social">
-                                            <a class="btn btn-outline-light mx-1" href="#">More Details</a>
-                                            <!-- <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-linkedin-in"></i></a> -->
+                                            <!-- <a class="btn btn-outline-light mx-1" href="#">More Details</a> -->
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-outline-light mx-1"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                Launch demo modal
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Modal title
+                                                            </h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            ...
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save
+                                                                changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="bg-secondary p-3">
@@ -437,12 +468,7 @@
                                         <img class="img-fluid" src="img/destnation/pattaya.jpg" alt="">
                                         <div class="team-social">
                                             <a class="btn btn-outline-light mx-1" href="#">More Details</a>
-                                            <!-- <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-linkedin-in"></i></a> -->
+
                                         </div>
                                     </div>
                                     <div class="bg-secondary p-3">
@@ -457,12 +483,7 @@
                                         <img class="img-fluid" src="img/destnation/krabi.jpg" alt="">
                                         <div class="team-social">
                                             <a class="btn btn-outline-light mx-1" href="#">More Details</a>
-                                            <!-- <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                                    class="fab fa-linkedin-in"></i></a> -->
+
                                         </div>
                                     </div>
                                     <div class="bg-secondary p-3">
@@ -501,7 +522,7 @@
                                 href="https://www.youtube.com/@HykinOverseas"><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-outline-light btn-instagram btn-square mr-2" href="https://www.instagram.com/invites/contact/?i=g6jdj37mrv1&utm_content=scmrt5w
                         "><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-whatsapp btn-square"
+                            <a class="btn btn-outline-light btn-whatsapp btn-square"
                                 href="https://wa.me/message/HYXBIBJVXC3RP1"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
@@ -539,8 +560,8 @@
         style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a class="text-primary" href="#">Hykin Overseas</a>. All Rights Reserved. Designed by <a
-                        href="https://htmlcodex.com">2023</a>
+                <p class="m-0 text-white">&copy; <a class="text-primary" href="#">Hykin Overseas</a>. All Rights
+                    Reserved. Designed by <a href="https://htmlcodex.com">2023</a>
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">
